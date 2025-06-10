@@ -7,7 +7,7 @@ export let options = {
 };
 
 export default function () {
-  let res = http.get('http://74.179.220.54'); // Your webapp-service IP
+  let res = http.get('http://74.179.220.54'); // webapp-service IP
   check(res, {
     'status is 200': (r) => r.status === 200,
   });
